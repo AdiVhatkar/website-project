@@ -1,0 +1,255 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font: 400 15px Lato, sans-serif;
+            color: #818181;
+        }
+        /*---------NAVBAR--------------------*/
+        
+        # nav-bar {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        .navbar {
+            background-image: linear-gradient(to right, #fff, whitesmoke);
+            padding: 5;
+            background-size: 100%, 100%;
+        }
+        
+        navbar-brand img {
+            height: 30px;
+            padding-right: 150px;
+            transform: translatex(50px);
+            margin: 50px;
+        }
+        
+        .navbar-nav li {
+            padding: 0 10px;
+        }
+        
+        .navbar-nav li a {
+            color: black !important;
+            font-weight: 600;
+            float: right;
+            text-align: left;
+        }
+        
+        . navbar-nav img {
+            float: right;
+        }
+        
+        .fa-bars {
+            color: black;
+            font-size: 30px ! important;
+        }
+        
+        .navbar-toggler {
+            outline: none !important;
+        }
+        /*---------END NAVBAR--------------------*/
+        /*-----banner section ------*/
+        
+        #banner {
+            background-image: url("../img/top.png");
+            background-size: cover;
+            background-repeat: repeat-x;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            color: white;
+            position: relative;
+        }
+        
+        .promo-title {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+            font-weight: 300;
+            margin-top: 60px;
+            padding-top: 4%;
+        }
+        
+        .btn {
+            widows: 45px;
+            margin: 20px;
+        }
+        
+        #banner a {
+            color: #fff;
+            text-decoration: none;
+        }
+        /*---------END BANNER------------------*/
+        /*-----vision-------*/
+        
+        #about-us {
+            background-image: url('../svgs/banner-lower-bg.png');
+            background-size: cover;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+        
+        .about-title {
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: 4%;
+        }
+        /*---------END VISION-------------------*/
+        /*---------------Features-----------------*/
+        
+        #features {
+            background-image: url("../svgs/banner-lower-bg.png");
+            padding: 50px 0 80px;
+            text-align: justify-content;
+            border-width: 5px;
+            border-color: black
+        }
+        
+        .INTERGRATE {
+            border: 5px dashed black;
+        }
+        /*---------------Features-----------------*/
+        /*---------TEAM--------------------*/
+        
+        #team {
+            background-image: url("../svgs/banner-lower-bg.png");
+            padding: 50px 0 80px;
+            text-align: center;
+        }
+        
+        .team b,
+        .team h2,
+        .team h4 {
+            margin: 20px 0 20px;
+            color: #4c4c4c;
+        }
+        
+        .team p {
+            color: #737373;
+        }
+        
+        #teamphoto {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin: 0 80px;
+        }
+        
+        .team i {
+            height: 30px;
+            width: 30px;
+            padding: 5px;
+            font-size: 17px;
+            border-radius: 50%;
+            background-color: #a0db8e;
+            color: #fff;
+        }
+        /*---------END TEAM--------------------*/
+        /*---------GALLARY-------------------*/
+        
+        #Gallary {
+            background-image: url("../svgs/banner-lower-bg.png");
+            padding: 0, 0;
+        }
+        
+        #mainimg {
+            width: 130%;
+            height: 100%;
+        }
+        /*---------END GALLAARY-------------------*/
+        /*---------SERVICES-------------------*/
+        
+        #services {
+            background-image: url("../svgs/banner-lower-bg.png");
+            padding: 50px 0 80px;
+            text-align: center;
+        }
+        /*---------END SERVICES --------------------*/
+        /*---------PEOPLE-------------------*/
+        
+        #people {
+            background-image: url("../svgs/banner-lower-bg.png");
+            padding: 20px 0 30px;
+            text-align: left;
+        }
+        /*---------END PEOPLE--------------------*/
+        /*-----------CONTACT-----------------------*/
+        
+        .contact {
+            padding: 70px 0 80px;
+            text-align: center;
+        }
+        
+        .contact p {
+            padding-bottom: 100px;
+            color: #737373;
+        }
+        
+        .contact h2 {
+            color: #4c4c4c;
+            margin: 40px 0 40px;
+        }
+        
+        .contact .input-group {
+            margin-bottom: 25px;
+        }
+        
+        .contact .form-control {
+            border-radius: 0 !important;
+        }
+        
+        .contact span {
+            border-radius: 0 !important;
+        }
+        
+        .button {
+            margin: 30px;
+            border-radius: 0;
+            width: 30%;
+            padding: 80%;
+            font-size: 15px;
+            background-color: blue;
+            color: #fff;
+        }
+        
+        .imgsetting {
+            padding: 30px 0 30px;
+            text-align: center;
+        }
+        
+        .wow fadeInUp {
+            padding-bottom: 60px;
+        }
+        /*-------------FOOTER----------------------*/
+        
+        # nav-bar {
+            bottom: 0;
+        }
+        
+        .navbar-nav {
+            background-image: linear-gradient(to right indigo, purple);
+            padding-top: 20px;
+        }
+        /*------------media qurey -------------*/
+        
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color:
+            }
+        }
+        
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        /* For mobile phones: */
+        
+        [class*="col-"] {
+            width: 100%;
+        }
